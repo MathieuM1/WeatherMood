@@ -1,0 +1,39 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: #0f0f0f;
+    color: #0f0f0f;
+}
+
+.bgvid {
+    position: fixed;
+    opacity: 0.6;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.formulaire{
+    margin-top: 350px;
+}
+#search, #submit{
+    height: 50px;
+    font-size: 20px;
+}
+#submit{
+    margin-top:0;
+}
+
+.titleSearch {
+    font-size: 500%;
+}
+.btn {
+    margin-top: 5%;
+}
